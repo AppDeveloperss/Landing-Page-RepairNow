@@ -1,0 +1,29 @@
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+/******** NAVBAR ********/  
+  
+header {
+    background-color: #A2DBFA;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+header,
+#navbar-container {
+    height: 100px;
+}
+
+#navbar-container {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 0;
+    max-width: 1440px;
+    padding: 10px;
+}
