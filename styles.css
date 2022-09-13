@@ -1,0 +1,181 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+
+}
+
+@media (min-width: 768px) {
+
+}
+
+@media (min-width: 992px) {
+
+}
+
+@media (min-width: 1200px) {
+
+}
+
+@media (min-width: 1400px) {
+
+}
+
+
+@media screen and (max-width:950px){
+    .plans{
+        height: 2000px;
+        padding: 0% 10% 0% 10%;
+
+    }
+    #typeplans {
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+    }
+    #typeplans>div{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+}
+@media screen and (min-width:950px){
+    #titlePlans{
+        margin-bottom: 5%;
+    }
+    .plans{
+        height: 600px;
+    }
+    #typeplans {
+        flex-direction: row;
+        height: 100%;
+        width: 80%;
+    }
+}
+
+.plans{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    padding: 0% 5% 5% 10%;
+}
+
+.plans>.contenedor{
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+}
+
+.plans>.contenedor>div{
+    display: flex;
+    flex-direction: column;
+}
+
+.plans>.contenedor>div>h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 4%;
+    color:black;
+}
+
+.planname{
+    color: black;
+    font-size: 27px;
+    margin-bottom: 4%;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.Price{
+    color: black;
+    font-size: 25px;
+    margin-bottom: 3%;
+    text-align: center;
+    font-weight: bolder;
+
+    margin-top: 3%;
+}
+
+.Time{
+    color: black;
+    font-size: 15px;
+    margin-bottom: 3%;
+    text-align: center;
+    font-weight: bolder;
+    margin-top: 3%;
+}
+
+.plans>.contenedor>div>div{
+    display: flex;
+    flex-direction: column;
+    border-radius: 0px;
+}
+
+#titlePlans{
+    height: 20%;
+}
+
+#typeplans{
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#typeplans>div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 410px;
+    width: 230px;
+    padding: 2% 2%;
+    background-color: black;
+}
+
+#typeplans>div>div>p{
+    text-align: center;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+#typeplans>div>div>div{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 7%;
+}
+
+.benefits{
+    text-align: center;
+    font-size: 16px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-top: 10%;
+    margin-bottom: 5%;
+    color: black;
+}
+
+.benefits>p{
+    margin-bottom: 10%;
+}
+
+#typeplans>div>a{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 5% 5% 5% 5%;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+    background-color: #3AA3DB;
+    color: black;
+    border-radius: 0px;
+}
