@@ -1,181 +1,103 @@
-* {
-    padding: 0px;
-    margin: 0px;
-    font-family: 'Roboto', sans-serif;
-    box-sizing: border-box;
+/******** US ********/
+.container-about-us {
+    padding: 30px;
 }
 
-@media (min-width: 576px) {
-
-}
-
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 992px) {
-
-}
-
-@media (min-width: 1200px) {
-
-}
-
-@media (min-width: 1400px) {
-
-}
-
-
-@media screen and (max-width:950px){
-    .plans{
-        height: 2000px;
-        padding: 0% 10% 0% 10%;
-
-    }
-    #typeplans {
-        flex-direction: column;
-        height: 100%;
-        width: 100%;
-    }
-    #typeplans>div{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-}
-@media screen and (min-width:950px){
-    #titlePlans{
-        margin-bottom: 5%;
-    }
-    .plans{
-        height: 600px;
-    }
-    #typeplans {
-        flex-direction: row;
-        height: 100%;
-        width: 80%;
-    }
-}
-
-.plans{
-    width: 100%;
-    background-color: white;
+.about-us{
+    background-color:white;
     height: auto;
-    padding: 0% 5% 5% 10%;
+    width:100%;
+    align-items: initial;
+    justify-content:center;
+    display:flex;
+    text-align:center;
 }
 
-.plans>.contenedor{
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-}
-
-.plans>.contenedor>div{
-    display: flex;
-    flex-direction: column;
-}
-
-.plans>.contenedor>div>h1{
-    text-align: center;
-    font-weight: bold;
-    font-size: 55px;
-    display: flex;
-    flex-direction: column;
-    margin-top: 4%;
+.about-us-item{
+    width: 32%;
+    height: 65%;
+    justify-content: center;
+    text-align:center;
+    background-color: transparent;
     color:black;
 }
 
-.planname{
-    color: black;
-    font-size: 27px;
-    margin-bottom: 4%;
+.title-about-us {
     text-align: center;
-    font-weight: bolder;
-    margin-top: 3%;
-}
-
-.Price{
-    color: black;
-    font-size: 25px;
-    margin-bottom: 3%;
-    text-align: center;
-    font-weight: bolder;
-
-    margin-top: 3%;
-}
-
-.Time{
-    color: black;
-    font-size: 15px;
-    margin-bottom: 3%;
-    text-align: center;
-    font-weight: bolder;
-    margin-top: 3%;
-}
-
-.plans>.contenedor>div>div{
-    display: flex;
-    flex-direction: column;
-    border-radius: 0px;
-}
-
-#titlePlans{
-    height: 20%;
-}
-
-#typeplans{
-    margin: auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-#typeplans>div{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    height: 410px;
-    width: 230px;
-    padding: 2% 2%;
-    background-color: black;
-}
-
-#typeplans>div>div>p{
-    text-align: center;
-    font-weight: bolder;
-    font-style: italic;
-}
-
-#typeplans>div>div>div{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 7%;
-}
-
-.benefits{
-    text-align: center;
-    font-size: 16px;
-    font-weight: lighter;
-    font-style: italic;
-    margin-top: 10%;
-    margin-bottom: 5%;
-    color: black;
-}
-
-.benefits>p{
-    margin-bottom: 10%;
-}
-
-#typeplans>div>a{
-    text-align: center;
-    font-size: 15px;
+    font-size: 55px;
     font-weight: bold;
-    width: 70%;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 5% 5% 5% 5%;
-    font-family: 'Quicksand', sans-serif;
-    text-decoration: none;
-    background-color: #3AA3DB;
-    color: black;
-    border-radius: 0px;
 }
+
+.about-us-item ul {
+    margin-top: 10%;
+    text-align: left;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.about-us-item p {
+    font-size: 24px;
+    background-color: transparent; 
+}
+
+.line-about {
+    height: 65%;
+    width: 4px;
+    background-color:white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+@media (max-width:1261px) {
+    .about-us-item ul {
+        margin-top: none;
+    }
+
+    .about-us{
+        padding-top: 5%;
+    }
+}
+
+@media (max-width:997px){
+    .about-us-item p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:843px){
+    .about-us-item p {
+        font-size: 18px;
+    }
+
+    .about-us {
+        height: 400px;
+    }
+}
+
+@media (max-width:725px){
+    .about-us{
+        height: auto;
+        width: 100%;
+        display: block !important;
+    }
+
+    .title-about-us {
+        font-size: 36px;
+    }
+
+    .about-us ul {
+        margin-bottom: 8%;
+    }
+
+    .about-us-item{
+        width: 100%;
+        padding: 0% 10%;
+        margin: 0% 0%;
+    }
+
+    .line-about{
+        margin-left: 10%;
+        width: 80%;
+        height: 4px;
+    }
+}
+/******** END US ********/
