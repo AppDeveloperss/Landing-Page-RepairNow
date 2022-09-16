@@ -1,0 +1,101 @@
+.container-about-us {
+    padding: 30px;
+}
+
+.about-us{
+    background-color:white;
+    height: auto;
+    width:100%;
+    align-items: initial;
+    justify-content:center;
+    display:flex;
+    text-align:center;
+}
+
+.about-us-item{
+    width: 32%;
+    height: 65%;
+    justify-content: center;
+    text-align:center;
+    background-color: transparent;
+    color:black;
+}
+
+.title-about-us {
+    text-align: center;
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.about-us-item ul {
+    margin-top: 10%;
+    text-align: left;
+    font-size: 22px;
+    background-color: transparent;
+}
+
+.about-us-item p {
+    font-size: 24px;
+    background-color: transparent; 
+}
+
+.line-about {
+    height: 65%;
+    width: 4px;
+    background-color:white;
+    margin-right: 3%;
+    margin-left: 3%;
+}
+@media (max-width:1261px) {
+    .about-us-item ul {
+        margin-top: none;
+    }
+
+    .about-us{
+        padding-top: 5%;
+    }
+}
+
+@media (max-width:997px){
+    .about-us-item p {
+        font-size: 22px;
+    }
+}
+
+@media (max-width:843px){
+    .about-us-item p {
+        font-size: 18px;
+    }
+
+    .about-us {
+        height: 400px;
+    }
+}
+
+@media (max-width:725px){
+    .about-us{
+        height: auto;
+        width: 100%;
+        display: block !important;
+    }
+
+    .title-about-us {
+        font-size: 36px;
+    }
+
+    .about-us ul {
+        margin-bottom: 8%;
+    }
+
+    .about-us-item{
+        width: 100%;
+        padding: 0% 10%;
+        margin: 0% 0%;
+    }
+
+    .line-about{
+        margin-left: 10%;
+        width: 80%;
+        height: 4px;
+    }
+}
