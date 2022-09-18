@@ -1,7 +1,10 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 =======
 >>>>>>> feature/footer
+=======
+>>>>>>> feature/objetive
 * {
     padding: 0px;
     margin: 0px;
@@ -10,8 +13,12 @@
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******** NAVBAR ********/  
   
+=======
+/******** NAVBAR ********/
+>>>>>>> feature/objetive
 header {
     background-color: #A2DBFA;
     position: sticky;
@@ -30,6 +37,7 @@ header,
     margin: 0 auto 0;
     max-width: 1440px;
     padding: 10px;
+<<<<<<< HEAD
 =======
 footer {
     background: #A2DBFA;
@@ -127,3 +135,175 @@ footer {
 
 >>>>>>> feature/footer
 }
+=======
+}
+
+#brand {
+    font-size: 36px;
+    font-weight: bold;
+    margin: auto;
+}
+
+#toggle-button {
+    border-radius: 50%;
+    cursor: pointer;
+    display: flex;
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    width: 40px;
+}
+
+#toggle-button:hover {
+    background-color: rgba(255, 255, 255, 0.363)
+}
+
+#toggle-button:active {
+    background-color: rgba(255, 255, 255, 0.733)
+}
+
+#toggle-button span {
+    color: black;
+    font-size: 28px;
+    left: 10px;
+    text-align: center;
+    width: 40px;
+}
+
+#menu {
+    background-color: #A2DBFA;
+    left: -100%;
+    padding: 10px;
+    position: absolute;
+    top: 100px;
+    transition: left .5s;
+    width: 100%;
+}
+
+#menu.active {
+    left: 0;
+}
+
+#menu ul li {
+    display: flex;
+    margin: 20px 0 20px;
+}
+
+#brand,
+#menu ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+#menu ul li a {
+    font-size: 18px;
+    margin: 0 auto 0;
+}
+
+#menu ul li a:hover,
+#navbar-button:hover {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#navbar-button {
+    background-color: #39A2DB;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    height: 50px;
+    width: 157px;
+}
+
+/******** END NAVBAR ********/
+
+
+
+/******** PURPOSE ********/
+#purpose {
+    margin: 40px auto 40px;
+}
+
+#table-purpose {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+    max-width: 600px;
+}
+
+.td-purpose-img {
+    width: 150px;
+    height: 180px;
+    background-repeat: no-repeat;
+    background-size: 250px 180px;
+}
+
+.td-purpose-img1 {
+    background-image: url('images/purpose_img1.png');
+}
+
+.td-purpose-img2 {
+    background-image: url('images/purpose_img2.png');
+}
+
+.title-section {
+    text-align: center;
+}
+
+/******** END PURPOSE ********/
+
+@media (min-width: 576px) {}
+
+@media (min-width: 768px) {}
+
+@media (min-width: 992px) {}
+
+@media (min-width: 1200px) {
+
+    /******** NAVBAR ********/
+    #toggle-button {
+        display: none;
+    }
+
+    #brand {
+        font-size: 55px;
+    }
+
+    #brand,
+    #menu {
+        margin: auto 0 auto;
+    }
+
+    #menu,
+    #menu.active {
+        left: auto;
+        margin-left: auto;
+        position: relative;
+        top: auto;
+        transition: none;
+        width: auto;
+    }
+
+    #menu ul li {
+        display: inline;
+        margin-left: 30px;
+    }
+
+    #menu ul li a {
+        font-size: 24px;
+    }
+
+    #navbar-button {
+        font-size: 24px;
+    }
+
+    #menu ul li a:hover,
+    #navbar-button:hover {
+        font-size: 25px;
+    }
+
+    /******** END NAVBAR ********/
+}
+
+@media (min-width: 1400px) {}
+>>>>>>> feature/objetive
