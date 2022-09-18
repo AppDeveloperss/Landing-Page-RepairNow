@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="WhiteProgrammers">
-    <meta name="description" content="LineRepair Landing Page">
-    <meta name="keywords" content="LineRepair, Landing Page, UPC, startup, appliance, safe">
+    <meta name="description" content="RepairNow Landing Page">
+    <meta name="keywords" content="RepairNow, Landing Page, UPC, startup, appliance, safe">
 
     <link rel="stylesheet" href="./styles.css">
 
@@ -14,11 +14,152 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 
-    <title>LineRepair</title>
+    <title>RepairNow</title>
 </head>
 <body>
-     <!--About us-->
-     <div class="container-about-us" id="about">
+    <header>
+        <div id="navbar-container">
+            <a href="" id="brand">RepairNow</a>
+            <div id="toggle-button">
+                <span id="hamburguer">&#9776</span>
+            </div>
+            <nav id="menu" class="">
+                <ul>
+                    <li>
+                        <a href="#purpose">Objetivo</a>
+                    </li>
+                    <li>
+                        <a href="#services">Servicios</a>
+                    </li>
+                    <li>
+                        <a href="#plans">Planes</a>
+                    </li>
+                    <li>
+                        <a href="#about">Nosotros</a>
+                    </li>
+                    <li>
+                        <a href="#contact">Contacto</a>
+                    </li>
+                    <li>
+                        <a href="https://frontedapplication-RepairNow.netlify.app" target="_blank">
+                            <input type="button" value="Registro" id="navbar-button">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="d-flex hero-page">    
+        <div class="info-app">        
+            <div class="text-initial" >
+                <p>
+                    Expertos a tu alcance
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <section id="purpose">
+        <h3 class="title-section">Objetivo</h3>
+        <div class="container-area">
+            <div class="purpose-box"><p class="single-box purpose-txt"> Queremos ser la principal plataforma para asegurar tus electrodomésticos</p></div>
+            <div class="purpose-box"><img class="single-box" src="images/purpose_img_1.jpg" alt="purpose_img1"></div>
+            <div class="purpose-box"><img class="single-box" src="images/purpose_img_2.jpeg" alt="purpose_img2"></div>
+            <div class="purpose-box"><div class="single-box purpose-txt">Queremos mantener seguros los electrodomésticos en Lima</div></div>
+        </div>
+    </section>
+
+    <section id="about-the-product" class="d-flex">
+        <h3 id="title-about-the-product" class="mx-auto">About the Product</h3>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/pV54olEvWB8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <section class="services" id="services">
+        <div class="inner-service">
+            <h3 class="title-section">Servicios</h3>
+            <div class="row-service">
+                <div class="col-service">
+                    <div class="service">
+                        <img src="images/services_img_1.png" alt="">
+                        <div class="service-title">Consejo</div>
+                        <p>Te asesoramos en la gestión de la garantía y seguro de tus electrodomésticos</p>
+                    </div>
+                </div>
+                <div class="col-service">
+                    <div class="service">
+                        <img src="images/services_img_2.png" alt="">
+                        <div class="service-title">Mantenimiento</div>
+                        <p>Mantenimiento constante y a domicilio para tus electrodomésticos</p>
+                    </div>
+                </div>
+                <div class="col-service">
+                    <div class="service">
+                        <img src="images/services_img_3.png" alt="">
+                        <div class="service-title">Seguridad</div>
+                        <p>Asegura tus electrodomésticos con uno de nuestros planes</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="plans" id="plans">
+        <div class="container">
+            <div id="titlePlans">
+                <h1>Planes</h1>
+            </div>
+            <div id="typeplans">
+                <div style="background-color: #A1DBF9">
+                    <div>
+                        <p class="planname">Basico</p>
+                        <p class="Price">$15.00</p>
+                        <p class="Time">Un mes</p>
+                    </div>
+                    <div class="benefits">
+                        <p>-Registra hasta 3 electrodomésticos</p>
+                        <p>-Contacta con nuestros técnicos al instante</p>
+                        <p>-Reparación sin costo adicional</p>
+
+                    </div>
+                    <a href="register.html" target="_blank">Crear una cuenta</a>
+                </div>
+
+                <div style="background-color: #A1DBF9">
+                    <div>
+                        <p class="planname">Regular</p>
+                        <p class="Price">$40.00</p>
+                        <p class="Time">Tres meses</p>
+                    </div>
+                    <div class="benefits">
+                        <p>-Todas las funciones básicas</p>
+                        <p>-Registra hasta 6 electrodomésticos</p>
+                        <p>-Prioridad en la cola de reparación</p>
+
+                    </div>
+                    <a href="register.html" target="_blank">Crear una cuenta</a>
+                </div>
+
+                <div style="background-color: #A1DBF9">
+                    <div>
+                        <p class="planname">Plus</p>
+                        <p class="Price">$70.00</p>
+                        <p class="Time">Un año</p>
+                    </div>
+                    <div class="benefits">
+                        <p>-Todas las funciones básicas y regulares</p>
+                        <p>-Registra hasta 10 electrodomésticos</p>
+                        <p>-Alta prioridad en la cola de reparación</p>
+
+                    </div>
+                    <a href="register.html" target="_blank">Crear una cuenta</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--About us-->
+    <div class="container-about-us" id="about">
         <h3 class="title-about-us">Nosotros</h3>
         <div class="about-us" name="about-us" id="about-us">
             <div class="d-flex flex-column about-us-item">
@@ -30,10 +171,54 @@
             <div class="line-about"></div>
             <div class="flex-column about-us-item">
                 <ul>
-                    <p>WhiteProgrammers es una empresa emergente dirigida al diseño y desarrollo aplicaciones para ayudar a los usuarios, así como soluciones prácticas y accionables a problemas cotidianos, para personas que buscan productos personalizados y que utilizan activamente equipos tecnológicos en su día a día. .</p>
+                    <p>AppDevelopers es una empresa emergente dirigida al diseño y desarrollo aplicaciones para ayudar a los usuarios, así como soluciones prácticas y accionables a problemas cotidianos, para personas que buscan productos personalizados y que utilizan activamente equipos tecnológicos en su día a día. .</p>
                 </ul>
             </div>
         </div>
     </div>
+
+    <section id="about-the-team" class="d-flex">
+        <h3 id="title-about-the-team" class="mx-auto">About the Team</h3>
+        <h4>Somos una startup conformada por estudiantes de la carrera de Ingenieria de Software que busca mejorar los procesos cotidianos con la ayuda de la tecnologia.</h4>
+        <iframe width="560" height="315" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+
+    <footer id="contact">
+        <div class="container-body">
+            <div class="column1">
+                <h1>RepairNow</h1>
+                <p>
+                    +51 555555555<br>
+                    contacto@RepairNow.com
+                </p>
+            </div>
+            <div class="column2">
+                <p>Follow us:</p>
+                <div class="icons">
+                    <div class="icon">
+                        <a href="https://www.facebook.com/" target=_blank>
+                            <img src="images/facebook-icon.png" >
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.instagram.com/"target=_blank> 
+                            <img src="images/instagram-icon.png" >
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://twitter.com/"target=_blank>
+                            <img src="images/twitter-icon.png" >
+                        </a>
+                    </div>
+                    <div class="icon">
+                        <a href="https://www.linkedin.com/"target=_blank>     
+                            <img src="images/linkedin-icon.png" >
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="main.js"></script>
 </body>
 </html>
