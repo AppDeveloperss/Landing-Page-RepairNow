@@ -698,12 +698,12 @@ footer {
 
     #brand {
         font-size: 55px;
-        font-family: 'Brush Script MT';
     }
 
     #brand, 
     #menu {
         margin: auto 0 auto;
+        font-family: 'Brush Script MT';
     }
 
     #menu,
