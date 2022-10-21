@@ -537,6 +537,7 @@ header,
     }
     
     .title-about-us {
+        font-family: 'Cambria';
         font-size: 36px;
     }
 
@@ -615,6 +616,7 @@ footer {
 }
 
 #title-about-the-team {
+    font-family: 'Cambria';
     font-size: 55px;
     margin-bottom: 20px;
 }
@@ -668,7 +670,7 @@ footer {
 @media (min-width: 768px) {
     /******** PURPOSE ********/   
     .title-section {
-        font-family: Cambria;
+        font-family: 'Cambria';
         font-size: 55px;
     }   
 
@@ -696,11 +698,11 @@ footer {
 
     #brand {
         font-size: 55px;
+        font-family: 'Brush Script MT';
     }
 
     #brand, 
     #menu {
-        font-family: 'Brush Script MT';
         margin: auto 0 auto;
     }
 
